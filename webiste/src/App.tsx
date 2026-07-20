@@ -5,6 +5,7 @@ import { AmortizationChart } from './components/AmortizationChart'
 import { ApplicationStats } from './components/ApplicationStats'
 import { ApplicationForm } from './components/ApplicationForm'
 import LoanComparison from './components/LoanComparison'
+import ApplicationTracking from './components/ApplicationTracking'
 
 type LoanProduct = {
   product_id: string
@@ -93,7 +94,7 @@ function App() {
   const [termFilter, setTermFilter] = useState('all')
   const [maxRatePercent, setMaxRatePercent] = useState('all')
   const [filterDrawerOpen, setFilterDrawerOpen] = useState(false)
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'eligibility' | 'amortization' | 'analytics' | 'apply' | 'compare'>('dashboard')
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'eligibility' | 'amortization' | 'analytics' | 'compare' | 'tracking' | 'apply'>('dashboard')
 
   const loadDashboard = useCallback(async () => {
     try {
@@ -309,6 +310,7 @@ function App() {
             { key: 'amortization', label: 'Amortization' },
             { key: 'analytics', label: 'Analytics' },
             { key: 'compare', label: 'Compare' },
+            { key: 'tracking', label: 'Track' },
             { key: 'apply', label: 'Apply Now' },
           ] as const
         ).map((tab) => (
@@ -599,6 +601,9 @@ function App() {
 
       {/* ══ COMPARE TAB ════════════════════════════════════════════ */}
       {activeTab === 'compare' && <LoanComparison />}
+
+      {/* ══ TRACKING TAB ═══════════════════════════════════════════ */}
+      {activeTab === 'tracking' && <ApplicationTracking />}
 
       {/* ══ APPLY NOW TAB ═════════════════════════════════════════ */}
       {activeTab === 'apply' && <ApplicationForm />}
