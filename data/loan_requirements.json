@@ -1,0 +1,50 @@
+[
+  {
+    "product_id": "MORTGAGE_30",
+    "min_credit_score": 620,
+    "max_dti": 0.43,
+    "min_down_payment": 0.03,
+    "employment_history_months": 24,
+    "income_verification_required": true
+  },
+  {
+    "product_id": "MORTGAGE_15",
+    "min_credit_score": 640,
+    "max_dti": 0.4,
+    "min_down_payment": 0.1,
+    "employment_history_months": 24,
+    "income_verification_required": true
+  },
+  {
+    "product_id": "AUTO_NEW",
+    "min_credit_score": 600,
+    "max_dti": 0.5,
+    "min_down_payment": 0.0,
+    "employment_history_months": 12,
+    "income_verification_required": true
+  },
+  {
+    "product_id": "AUTO_USED",
+    "min_credit_score": 580,
+    "max_dti": 0.5,
+    "min_down_payment": 0.1,
+    "employment_history_months": 6,
+    "income_verification_required": true
+  },
+  {
+    "product_id": "PERSONAL",
+    "min_credit_score": 580,
+    "max_dti": 0.5,
+    "min_down_payment": 0.0,
+    "employment_history_months": 3,
+    "income_verification_required": false
+  },
+  {
+    "product_id": "HELOC",
+    "min_credit_score": 650,
+    "max_dti": 0.43,
+    "home_equity_required": 0.2,
+    "employment_history_months": 24,
+    "income_verification_required": true
+  }
+]

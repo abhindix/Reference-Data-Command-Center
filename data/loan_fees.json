@@ -1,0 +1,45 @@
+[
+  {
+    "product_id": "MORTGAGE_30",
+    "origination_fee": 0.01,
+    "appraisal_fee": 500,
+    "title_insurance": 0.005,
+    "recording_fee": 150,
+    "processing_fee": 400
+  },
+  {
+    "product_id": "MORTGAGE_15",
+    "origination_fee": 0.01,
+    "appraisal_fee": 500,
+    "title_insurance": 0.005,
+    "recording_fee": 150,
+    "processing_fee": 400
+  },
+  {
+    "product_id": "AUTO_NEW",
+    "origination_fee": 0.005,
+    "doc_fee": 100,
+    "registration_fee": 250,
+    "processing_fee": 75
+  },
+  {
+    "product_id": "AUTO_USED",
+    "origination_fee": 0.008,
+    "doc_fee": 150,
+    "registration_fee": 250,
+    "processing_fee": 100
+  },
+  {
+    "product_id": "PERSONAL",
+    "origination_fee": 0.01,
+    "processing_fee": 50,
+    "late_payment_fee": 25
+  },
+  {
+    "product_id": "HELOC",
+    "origination_fee": 0.01,
+    "appraisal_fee": 400,
+    "processing_fee": 200,
+    "annual_fee": 100
+  }
+]

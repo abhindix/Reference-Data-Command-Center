@@ -1,0 +1,34 @@
+[
+  {
+    "id": "RISK_EXCELLENT",
+    "code": "EXCELLENT",
+    "credit_score_min": 800,
+    "credit_score_max": 850,
+    "rate_adjustment": -0.02,
+    "description": "Excellent credit score"
+  },
+  {
+    "id": "RISK_GOOD",
+    "code": "GOOD",
+    "credit_score_min": 740,
+    "credit_score_max": 799,
+    "rate_adjustment": 0.0,
+    "description": "Good credit score"
+  },
+  {
+    "id": "RISK_FAIR",
+    "code": "FAIR",
+    "credit_score_min": 670,
+    "credit_score_max": 739,
+    "rate_adjustment": 0.025,
+    "description": "Fair credit score"
+  },
+  {
+    "id": "RISK_POOR",
+    "code": "POOR",
+    "credit_score_min": 300,
+    "credit_score_max": 669,
+    "rate_adjustment": 0.05,
+    "description": "Poor credit score"
+  }
+]

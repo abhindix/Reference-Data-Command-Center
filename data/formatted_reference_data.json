@@ -1,0 +1,1058 @@
+[
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_USD",
+    "value": "1",
+    "description": "Exchange rate from USD to USD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_AED",
+    "value": "3.67",
+    "description": "Exchange rate from USD to AED"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_AFN",
+    "value": "65.97",
+    "description": "Exchange rate from USD to AFN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ALL",
+    "value": "81.93",
+    "description": "Exchange rate from USD to ALL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_AMD",
+    "value": "366.6",
+    "description": "Exchange rate from USD to AMD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ANG",
+    "value": "1.79",
+    "description": "Exchange rate from USD to ANG"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_AOA",
+    "value": "920.68",
+    "description": "Exchange rate from USD to AOA"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ARS",
+    "value": "1480.12",
+    "description": "Exchange rate from USD to ARS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_AUD",
+    "value": "1.43",
+    "description": "Exchange rate from USD to AUD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_AWG",
+    "value": "1.79",
+    "description": "Exchange rate from USD to AWG"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_AZN",
+    "value": "1.7",
+    "description": "Exchange rate from USD to AZN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BAM",
+    "value": "1.71",
+    "description": "Exchange rate from USD to BAM"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BBD",
+    "value": "2",
+    "description": "Exchange rate from USD to BBD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BDT",
+    "value": "123.38",
+    "description": "Exchange rate from USD to BDT"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BGN",
+    "value": "1.71",
+    "description": "Exchange rate from USD to BGN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BHD",
+    "value": "0.376",
+    "description": "Exchange rate from USD to BHD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BIF",
+    "value": "2987.88",
+    "description": "Exchange rate from USD to BIF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BMD",
+    "value": "1",
+    "description": "Exchange rate from USD to BMD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BND",
+    "value": "1.29",
+    "description": "Exchange rate from USD to BND"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BOB",
+    "value": "10.72",
+    "description": "Exchange rate from USD to BOB"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BRL",
+    "value": "5.11",
+    "description": "Exchange rate from USD to BRL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BSD",
+    "value": "1",
+    "description": "Exchange rate from USD to BSD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BTN",
+    "value": "96.5",
+    "description": "Exchange rate from USD to BTN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BWP",
+    "value": "13.62",
+    "description": "Exchange rate from USD to BWP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BYN",
+    "value": "2.89",
+    "description": "Exchange rate from USD to BYN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_BZD",
+    "value": "2",
+    "description": "Exchange rate from USD to BZD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CAD",
+    "value": "1.4",
+    "description": "Exchange rate from USD to CAD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CDF",
+    "value": "2300.32",
+    "description": "Exchange rate from USD to CDF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CHF",
+    "value": "0.808",
+    "description": "Exchange rate from USD to CHF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CLF",
+    "value": "0.0235",
+    "description": "Exchange rate from USD to CLF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CLP",
+    "value": "928.18",
+    "description": "Exchange rate from USD to CLP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CNH",
+    "value": "6.78",
+    "description": "Exchange rate from USD to CNH"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CNY",
+    "value": "6.78",
+    "description": "Exchange rate from USD to CNY"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_COP",
+    "value": "3248.56",
+    "description": "Exchange rate from USD to COP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CRC",
+    "value": "454.11",
+    "description": "Exchange rate from USD to CRC"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CUP",
+    "value": "24",
+    "description": "Exchange rate from USD to CUP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CVE",
+    "value": "96.48",
+    "description": "Exchange rate from USD to CVE"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_CZK",
+    "value": "21.19",
+    "description": "Exchange rate from USD to CZK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_DJF",
+    "value": "177.72",
+    "description": "Exchange rate from USD to DJF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_DKK",
+    "value": "6.53",
+    "description": "Exchange rate from USD to DKK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_DOP",
+    "value": "58.55",
+    "description": "Exchange rate from USD to DOP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_DZD",
+    "value": "133.12",
+    "description": "Exchange rate from USD to DZD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_EGP",
+    "value": "50.77",
+    "description": "Exchange rate from USD to EGP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ERN",
+    "value": "15",
+    "description": "Exchange rate from USD to ERN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ETB",
+    "value": "160.54",
+    "description": "Exchange rate from USD to ETB"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_EUR",
+    "value": "0.875",
+    "description": "Exchange rate from USD to EUR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_FJD",
+    "value": "2.24",
+    "description": "Exchange rate from USD to FJD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_FKP",
+    "value": "0.744",
+    "description": "Exchange rate from USD to FKP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_FOK",
+    "value": "6.53",
+    "description": "Exchange rate from USD to FOK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GBP",
+    "value": "0.744",
+    "description": "Exchange rate from USD to GBP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GEL",
+    "value": "2.63",
+    "description": "Exchange rate from USD to GEL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GGP",
+    "value": "0.744",
+    "description": "Exchange rate from USD to GGP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GHS",
+    "value": "11.55",
+    "description": "Exchange rate from USD to GHS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GIP",
+    "value": "0.744",
+    "description": "Exchange rate from USD to GIP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GMD",
+    "value": "74.32",
+    "description": "Exchange rate from USD to GMD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GNF",
+    "value": "8785.66",
+    "description": "Exchange rate from USD to GNF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GTQ",
+    "value": "7.63",
+    "description": "Exchange rate from USD to GTQ"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_GYD",
+    "value": "209.25",
+    "description": "Exchange rate from USD to GYD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_HKD",
+    "value": "7.84",
+    "description": "Exchange rate from USD to HKD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_HNL",
+    "value": "26.79",
+    "description": "Exchange rate from USD to HNL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_HRK",
+    "value": "6.59",
+    "description": "Exchange rate from USD to HRK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_HTG",
+    "value": "130.65",
+    "description": "Exchange rate from USD to HTG"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_HUF",
+    "value": "317.89",
+    "description": "Exchange rate from USD to HUF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_IDR",
+    "value": "17944.1",
+    "description": "Exchange rate from USD to IDR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ILS",
+    "value": "3.04",
+    "description": "Exchange rate from USD to ILS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_IMP",
+    "value": "0.744",
+    "description": "Exchange rate from USD to IMP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_INR",
+    "value": "96.48",
+    "description": "Exchange rate from USD to INR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_IQD",
+    "value": "1309.06",
+    "description": "Exchange rate from USD to IQD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_IRR",
+    "value": "1331555.29",
+    "description": "Exchange rate from USD to IRR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ISK",
+    "value": "125.27",
+    "description": "Exchange rate from USD to ISK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_JEP",
+    "value": "0.744",
+    "description": "Exchange rate from USD to JEP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_JMD",
+    "value": "158.68",
+    "description": "Exchange rate from USD to JMD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_JOD",
+    "value": "0.709",
+    "description": "Exchange rate from USD to JOD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_JPY",
+    "value": "162.49",
+    "description": "Exchange rate from USD to JPY"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KES",
+    "value": "129.29",
+    "description": "Exchange rate from USD to KES"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KGS",
+    "value": "87.47",
+    "description": "Exchange rate from USD to KGS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KHR",
+    "value": "4046.86",
+    "description": "Exchange rate from USD to KHR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KID",
+    "value": "1.43",
+    "description": "Exchange rate from USD to KID"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KMF",
+    "value": "430.45",
+    "description": "Exchange rate from USD to KMF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KRW",
+    "value": "1486.95",
+    "description": "Exchange rate from USD to KRW"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KWD",
+    "value": "0.309",
+    "description": "Exchange rate from USD to KWD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KYD",
+    "value": "0.833",
+    "description": "Exchange rate from USD to KYD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_KZT",
+    "value": "470.84",
+    "description": "Exchange rate from USD to KZT"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_LAK",
+    "value": "22399.92",
+    "description": "Exchange rate from USD to LAK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_LBP",
+    "value": "89500",
+    "description": "Exchange rate from USD to LBP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_LKR",
+    "value": "336.29",
+    "description": "Exchange rate from USD to LKR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_LRD",
+    "value": "181.17",
+    "description": "Exchange rate from USD to LRD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_LSL",
+    "value": "16.55",
+    "description": "Exchange rate from USD to LSL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_LYD",
+    "value": "6.39",
+    "description": "Exchange rate from USD to LYD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MAD",
+    "value": "9.33",
+    "description": "Exchange rate from USD to MAD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MDL",
+    "value": "17.55",
+    "description": "Exchange rate from USD to MDL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MGA",
+    "value": "4319.68",
+    "description": "Exchange rate from USD to MGA"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MKD",
+    "value": "53.83",
+    "description": "Exchange rate from USD to MKD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MMK",
+    "value": "2102.37",
+    "description": "Exchange rate from USD to MMK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MNT",
+    "value": "3621.2",
+    "description": "Exchange rate from USD to MNT"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MOP",
+    "value": "8.08",
+    "description": "Exchange rate from USD to MOP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MRU",
+    "value": "40.06",
+    "description": "Exchange rate from USD to MRU"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MUR",
+    "value": "47.13",
+    "description": "Exchange rate from USD to MUR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MVR",
+    "value": "15.44",
+    "description": "Exchange rate from USD to MVR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MWK",
+    "value": "1739.55",
+    "description": "Exchange rate from USD to MWK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MXN",
+    "value": "17.54",
+    "description": "Exchange rate from USD to MXN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MYR",
+    "value": "4.09",
+    "description": "Exchange rate from USD to MYR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_MZN",
+    "value": "63.58",
+    "description": "Exchange rate from USD to MZN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_NAD",
+    "value": "16.55",
+    "description": "Exchange rate from USD to NAD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_NGN",
+    "value": "1379.98",
+    "description": "Exchange rate from USD to NGN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_NIO",
+    "value": "36.82",
+    "description": "Exchange rate from USD to NIO"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_NOK",
+    "value": "9.65",
+    "description": "Exchange rate from USD to NOK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_NPR",
+    "value": "154.39",
+    "description": "Exchange rate from USD to NPR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_NZD",
+    "value": "1.71",
+    "description": "Exchange rate from USD to NZD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_OMR",
+    "value": "0.384",
+    "description": "Exchange rate from USD to OMR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_PAB",
+    "value": "1",
+    "description": "Exchange rate from USD to PAB"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_PEN",
+    "value": "3.39",
+    "description": "Exchange rate from USD to PEN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_PGK",
+    "value": "4.46",
+    "description": "Exchange rate from USD to PGK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_PHP",
+    "value": "61.67",
+    "description": "Exchange rate from USD to PHP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_PKR",
+    "value": "278.17",
+    "description": "Exchange rate from USD to PKR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_PLN",
+    "value": "3.8",
+    "description": "Exchange rate from USD to PLN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_PYG",
+    "value": "6052.89",
+    "description": "Exchange rate from USD to PYG"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_QAR",
+    "value": "3.64",
+    "description": "Exchange rate from USD to QAR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_RON",
+    "value": "4.58",
+    "description": "Exchange rate from USD to RON"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_RSD",
+    "value": "102.59",
+    "description": "Exchange rate from USD to RSD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_RUB",
+    "value": "78.27",
+    "description": "Exchange rate from USD to RUB"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_RWF",
+    "value": "1467.62",
+    "description": "Exchange rate from USD to RWF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SAR",
+    "value": "3.75",
+    "description": "Exchange rate from USD to SAR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SBD",
+    "value": "7.96",
+    "description": "Exchange rate from USD to SBD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SCR",
+    "value": "14.29",
+    "description": "Exchange rate from USD to SCR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SDG",
+    "value": "458.67",
+    "description": "Exchange rate from USD to SDG"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SEK",
+    "value": "9.67",
+    "description": "Exchange rate from USD to SEK"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SGD",
+    "value": "1.29",
+    "description": "Exchange rate from USD to SGD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SHP",
+    "value": "0.744",
+    "description": "Exchange rate from USD to SHP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SLE",
+    "value": "24.36",
+    "description": "Exchange rate from USD to SLE"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SLL",
+    "value": "24357.91",
+    "description": "Exchange rate from USD to SLL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SOS",
+    "value": "571.75",
+    "description": "Exchange rate from USD to SOS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SRD",
+    "value": "37.75",
+    "description": "Exchange rate from USD to SRD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SSP",
+    "value": "4836.81",
+    "description": "Exchange rate from USD to SSP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_STN",
+    "value": "21.44",
+    "description": "Exchange rate from USD to STN"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SYP",
+    "value": "121.75",
+    "description": "Exchange rate from USD to SYP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_SZL",
+    "value": "16.55",
+    "description": "Exchange rate from USD to SZL"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_THB",
+    "value": "33.65",
+    "description": "Exchange rate from USD to THB"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TJS",
+    "value": "9.24",
+    "description": "Exchange rate from USD to TJS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TMT",
+    "value": "3.5",
+    "description": "Exchange rate from USD to TMT"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TND",
+    "value": "2.95",
+    "description": "Exchange rate from USD to TND"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TOP",
+    "value": "2.38",
+    "description": "Exchange rate from USD to TOP"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TRY",
+    "value": "47.19",
+    "description": "Exchange rate from USD to TRY"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TTD",
+    "value": "6.79",
+    "description": "Exchange rate from USD to TTD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TVD",
+    "value": "1.43",
+    "description": "Exchange rate from USD to TVD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TWD",
+    "value": "32.4",
+    "description": "Exchange rate from USD to TWD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_TZS",
+    "value": "2628.47",
+    "description": "Exchange rate from USD to TZS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_UAH",
+    "value": "44.68",
+    "description": "Exchange rate from USD to UAH"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_UGX",
+    "value": "3691.1",
+    "description": "Exchange rate from USD to UGX"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_UYU",
+    "value": "40.23",
+    "description": "Exchange rate from USD to UYU"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_UZS",
+    "value": "11905.24",
+    "description": "Exchange rate from USD to UZS"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_VES",
+    "value": "736.93",
+    "description": "Exchange rate from USD to VES"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_VND",
+    "value": "26215.98",
+    "description": "Exchange rate from USD to VND"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_VUV",
+    "value": "118.85",
+    "description": "Exchange rate from USD to VUV"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_WST",
+    "value": "2.71",
+    "description": "Exchange rate from USD to WST"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_XAF",
+    "value": "573.94",
+    "description": "Exchange rate from USD to XAF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_XCD",
+    "value": "2.7",
+    "description": "Exchange rate from USD to XCD"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_XCG",
+    "value": "1.79",
+    "description": "Exchange rate from USD to XCG"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_XDR",
+    "value": "0.736",
+    "description": "Exchange rate from USD to XDR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_XOF",
+    "value": "573.94",
+    "description": "Exchange rate from USD to XOF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_XPF",
+    "value": "104.41",
+    "description": "Exchange rate from USD to XPF"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_YER",
+    "value": "238.16",
+    "description": "Exchange rate from USD to YER"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ZAR",
+    "value": "16.55",
+    "description": "Exchange rate from USD to ZAR"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ZMW",
+    "value": "18.21",
+    "description": "Exchange rate from USD to ZMW"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ZWG",
+    "value": "26.68",
+    "description": "Exchange rate from USD to ZWG"
+  },
+  {
+    "data_type": "exchange_rate",
+    "key": "USD_to_ZWL",
+    "value": "26.68",
+    "description": "Exchange rate from USD to ZWL"
+  },
+  {
+    "data_type": "loan_product",
+    "key": "MORTGAGE_30",
+    "value": "{\"id\": \"MORTGAGE_30\", \"name\": \"30-Year Fixed Mortgage\", \"type\": \"mortgage\", \"term_months\": 360, \"min_rate\": 0.03, \"max_rate\": 0.09, \"description\": \"Standard 30-year fixed-rate mortgage\"}",
+    "description": "Standard 30-year fixed-rate mortgage"
+  },
+  {
+    "data_type": "loan_product",
+    "key": "MORTGAGE_15",
+    "value": "{\"id\": \"MORTGAGE_15\", \"name\": \"15-Year Fixed Mortgage\", \"type\": \"mortgage\", \"term_months\": 180, \"min_rate\": 0.025, \"max_rate\": 0.08, \"description\": \"Shorter 15-year fixed-rate mortgage\"}",
+    "description": "Shorter 15-year fixed-rate mortgage"
+  },
+  {
+    "data_type": "loan_product",
+    "key": "AUTO_NEW",
+    "value": "{\"id\": \"AUTO_NEW\", \"name\": \"New Auto Loan\", \"type\": \"auto\", \"term_months\": 72, \"min_rate\": 0.019, \"max_rate\": 0.099, \"description\": \"Financing for new vehicles\"}",
+    "description": "Financing for new vehicles"
+  },
+  {
+    "data_type": "loan_product",
+    "key": "AUTO_USED",
+    "value": "{\"id\": \"AUTO_USED\", \"name\": \"Used Auto Loan\", \"type\": \"auto\", \"term_months\": 72, \"min_rate\": 0.029, \"max_rate\": 0.149, \"description\": \"Financing for used vehicles\"}",
+    "description": "Financing for used vehicles"
+  },
+  {
+    "data_type": "loan_product",
+    "key": "PERSONAL",
+    "value": "{\"id\": \"PERSONAL\", \"name\": \"Personal Loan\", \"type\": \"personal\", \"term_months\": 84, \"min_rate\": 0.069, \"max_rate\": 0.399, \"description\": \"Unsecured personal loans\"}",
+    "description": "Unsecured personal loans"
+  },
+  {
+    "data_type": "loan_product",
+    "key": "HELOC",
+    "value": "{\"id\": \"HELOC\", \"name\": \"Home Equity Line of Credit\", \"type\": \"heloc\", \"term_months\": 360, \"min_rate\": 0.035, \"max_rate\": 0.129, \"description\": \"Variable rate credit line backed by home equity\"}",
+    "description": "Variable rate credit line backed by home equity"
+  },
+  {
+    "data_type": "risk_categorie",
+    "key": "RISK_EXCELLENT",
+    "value": "{\"id\": \"RISK_EXCELLENT\", \"code\": \"EXCELLENT\", \"credit_score_min\": 800, \"credit_score_max\": 850, \"rate_adjustment\": -0.02, \"description\": \"Excellent credit score\"}",
+    "description": "Excellent credit score"
+  },
+  {
+    "data_type": "risk_categorie",
+    "key": "RISK_GOOD",
+    "value": "{\"id\": \"RISK_GOOD\", \"code\": \"GOOD\", \"credit_score_min\": 740, \"credit_score_max\": 799, \"rate_adjustment\": 0.0, \"description\": \"Good credit score\"}",
+    "description": "Good credit score"
+  },
+  {
+    "data_type": "risk_categorie",
+    "key": "RISK_FAIR",
+    "value": "{\"id\": \"RISK_FAIR\", \"code\": \"FAIR\", \"credit_score_min\": 670, \"credit_score_max\": 739, \"rate_adjustment\": 0.025, \"description\": \"Fair credit score\"}",
+    "description": "Fair credit score"
+  },
+  {
+    "data_type": "risk_categorie",
+    "key": "RISK_POOR",
+    "value": "{\"id\": \"RISK_POOR\", \"code\": \"POOR\", \"credit_score_min\": 300, \"credit_score_max\": 669, \"rate_adjustment\": 0.05, \"description\": \"Poor credit score\"}",
+    "description": "Poor credit score"
+  }
+]

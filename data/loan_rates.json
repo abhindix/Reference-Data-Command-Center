@@ -1,0 +1,56 @@
+[
+  {
+    "product_id": "MORTGAGE_30",
+    "current_rate": 0.065,
+    "min_rate": 0.0575,
+    "max_rate": 0.0725,
+    "rate_effective_date": "2026-07-20T07:03:29.839361",
+    "last_updated": "2026-07-20T07:03:29.839377",
+    "market_condition": "Normal"
+  },
+  {
+    "product_id": "MORTGAGE_15",
+    "current_rate": 0.059,
+    "min_rate": 0.053,
+    "max_rate": 0.065,
+    "rate_effective_date": "2026-07-20T07:03:29.839381",
+    "last_updated": "2026-07-20T07:03:29.839382",
+    "market_condition": "Normal"
+  },
+  {
+    "product_id": "AUTO_NEW",
+    "current_rate": 0.055,
+    "min_rate": 0.045,
+    "max_rate": 0.065,
+    "rate_effective_date": "2026-07-20T07:03:29.839385",
+    "last_updated": "2026-07-20T07:03:29.839386",
+    "market_condition": "Normal"
+  },
+  {
+    "product_id": "AUTO_USED",
+    "current_rate": 0.085,
+    "min_rate": 0.07,
+    "max_rate": 0.1,
+    "rate_effective_date": "2026-07-20T07:03:29.839387",
+    "last_updated": "2026-07-20T07:03:29.839388",
+    "market_condition": "Normal"
+  },
+  {
+    "product_id": "PERSONAL",
+    "current_rate": 0.22,
+    "min_rate": 0.17,
+    "max_rate": 0.27,
+    "rate_effective_date": "2026-07-20T07:03:29.839390",
+    "last_updated": "2026-07-20T07:03:29.839390",
+    "market_condition": "Normal"
+  },
+  {
+    "product_id": "HELOC",
+    "current_rate": 0.082,
+    "min_rate": 0.0695,
+    "max_rate": 0.0945,
+    "rate_effective_date": "2026-07-20T07:03:29.839392",
+    "last_updated": "2026-07-20T07:03:29.839393",
+    "market_condition": "Normal"
+  }
+]

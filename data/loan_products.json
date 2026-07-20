@@ -1,0 +1,68 @@
+[
+  {
+    "id": "MORTGAGE_30",
+    "name": "30-Year Fixed Mortgage",
+    "type": "mortgage",
+    "term_months": 360,
+    "min_rate": 0.03,
+    "max_rate": 0.09,
+    "min_loan_amount": 50000,
+    "max_loan_amount": 1000000,
+    "description": "Standard 30-year fixed-rate mortgage"
+  },
+  {
+    "id": "MORTGAGE_15",
+    "name": "15-Year Fixed Mortgage",
+    "type": "mortgage",
+    "term_months": 180,
+    "min_rate": 0.025,
+    "max_rate": 0.08,
+    "min_loan_amount": 50000,
+    "max_loan_amount": 1000000,
+    "description": "Shorter 15-year fixed-rate mortgage"
+  },
+  {
+    "id": "AUTO_NEW",
+    "name": "New Auto Loan",
+    "type": "auto",
+    "term_months": 72,
+    "min_rate": 0.019,
+    "max_rate": 0.099,
+    "min_loan_amount": 10000,
+    "max_loan_amount": 100000,
+    "description": "Financing for new vehicles"
+  },
+  {
+    "id": "AUTO_USED",
+    "name": "Used Auto Loan",
+    "type": "auto",
+    "term_months": 72,
+    "min_rate": 0.029,
+    "max_rate": 0.149,
+    "min_loan_amount": 5000,
+    "max_loan_amount": 50000,
+    "description": "Financing for used vehicles"
+  },
+  {
+    "id": "PERSONAL",
+    "name": "Personal Loan",
+    "type": "personal",
+    "term_months": 84,
+    "min_rate": 0.069,
+    "max_rate": 0.399,
+    "min_loan_amount": 1000,
+    "max_loan_amount": 50000,
+    "description": "Unsecured personal loans"
+  },
+  {
+    "id": "HELOC",
+    "name": "Home Equity Line of Credit",
+    "type": "heloc",
+    "term_months": 360,
+    "min_rate": 0.035,
+    "max_rate": 0.129,
+    "min_loan_amount": 25000,
+    "max_loan_amount": 500000,
+    "description": "Variable rate credit line backed by home equity"
+  }
+]

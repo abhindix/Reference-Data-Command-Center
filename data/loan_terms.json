@@ -1,0 +1,92 @@
+[
+  {
+    "product_id": "MORTGAGE_30",
+    "term_months": 360,
+    "common": true
+  },
+  {
+    "product_id": "MORTGAGE_15",
+    "term_months": 180,
+    "common": true
+  },
+  {
+    "product_id": "MORTGAGE_15",
+    "term_months": 240,
+    "common": false
+  },
+  {
+    "product_id": "AUTO_NEW",
+    "term_months": 36,
+    "common": false
+  },
+  {
+    "product_id": "AUTO_NEW",
+    "term_months": 48,
+    "common": true
+  },
+  {
+    "product_id": "AUTO_NEW",
+    "term_months": 60,
+    "common": true
+  },
+  {
+    "product_id": "AUTO_NEW",
+    "term_months": 72,
+    "common": true
+  },
+  {
+    "product_id": "AUTO_USED",
+    "term_months": 48,
+    "common": true
+  },
+  {
+    "product_id": "AUTO_USED",
+    "term_months": 60,
+    "common": true
+  },
+  {
+    "product_id": "AUTO_USED",
+    "term_months": 72,
+    "common": false
+  },
+  {
+    "product_id": "PERSONAL",
+    "term_months": 24,
+    "common": false
+  },
+  {
+    "product_id": "PERSONAL",
+    "term_months": 36,
+    "common": true
+  },
+  {
+    "product_id": "PERSONAL",
+    "term_months": 48,
+    "common": true
+  },
+  {
+    "product_id": "PERSONAL",
+    "term_months": 60,
+    "common": true
+  },
+  {
+    "product_id": "PERSONAL",
+    "term_months": 84,
+    "common": false
+  },
+  {
+    "product_id": "HELOC",
+    "term_months": 120,
+    "common": false
+  },
+  {
+    "product_id": "HELOC",
+    "term_months": 180,
+    "common": true
+  },
+  {
+    "product_id": "HELOC",
+    "term_months": 240,
+    "common": true
+  }
+]
