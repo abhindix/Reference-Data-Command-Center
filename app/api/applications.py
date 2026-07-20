@@ -6,7 +6,13 @@ from typing import List
 
 from app.core.database import get_db
 from app.services.database_service import DatabaseService
-from app.schemas.loan_schemas import LoanApplicationResponse, EligibilityRequest, EligibilityResult
+from app.schemas.loan_schemas import (
+    LoanApplicationResponse,
+    EligibilityRequest,
+    EligibilityResult,
+    LoanApplicationSubmitRequest,
+    LoanApplicationSubmitResponse,
+)
 
 router = APIRouter()
 
@@ -92,3 +98,87 @@ async def check_eligibility(req: EligibilityRequest, db: Session = Depends(get_d
     # Eligible products first, then alphabetically
     results.sort(key=lambda r: (not r.eligible, r.product_id))
     return results
+
+
+@router.post("/applications/submit", response_model=LoanApplicationSubmitResponse)
+async def submit_application(req: LoanApplicationSubmitRequest, db: Session = Depends(get_db)):
+    """Submit a new customer loan application for processing"""
+    from app.models.loan_models import LoanApplication, LoanProduct
+
+    # Validate product exists
+    product = db.query(LoanProduct).filter(LoanProduct.product_id == req.product_id).first()
+    if not product:
+        from fastapi import HTTPException
+        raise HTTPException(status_code=404, detail=f"Loan product '{req.product_id}' not found")
+
+    # Validate loan amount is within product range
+    if product.min_loan_amount and req.loan_amount < product.min_loan_amount:
+        from fastapi import HTTPException
+        raise HTTPException(
+            status_code=400,
+            detail=f"Loan amount ${req.loan_amount:,.0f} is below minimum ${product.min_loan_amount:,.0f}"
+        )
+    if product.max_loan_amount and req.loan_amount > product.max_loan_amount:
+        from fastapi import HTTPException
+        raise HTTPException(
+            status_code=400,
+            detail=f"Loan amount ${req.loan_amount:,.0f} exceeds maximum ${product.max_loan_amount:,.0f}"
+        )
+
+    # Validate term is supported for product
+    if product.term_months and req.term_months != product.term_months:
+        from fastapi import HTTPException
+        raise HTTPException(
+            status_code=400,
+            detail=f"Term {req.term_months} months not available for {req.product_id} (available: {product.term_months})"
+        )
+
+    # Check against requirements
+    requirement = DatabaseService.get_loan_requirements(db, req.product_id)
+    warnings = []
+
+    if requirement:
+        if requirement.min_credit_score and req.credit_score < requirement.min_credit_score:
+            warnings.append(f"Credit score below recommended minimum of {requirement.min_credit_score}")
+        if requirement.max_dti and req.dti_ratio > requirement.max_dti:
+            warnings.append(f"Debt-to-income ratio exceeds recommended maximum of {requirement.max_dti:.0%}")
+        if requirement.min_down_payment and (req.down_payment_pct or 0) < requirement.min_down_payment:
+            warnings.append(f"Down payment below recommended minimum of {requirement.min_down_payment:.0%}")
+
+    # Generate unique customer ID
+    import uuid
+    customer_id = f"CUST{uuid.uuid4().hex[:8].upper()}"
+
+    # Create application (default status: pending)
+    from datetime import datetime
+    application = LoanApplication(
+        customer_id=customer_id,
+        customer_name=req.customer_name,
+        product_id=req.product_id,
+        loan_amount=req.loan_amount,
+        term_months=req.term_months,
+        credit_score=req.credit_score,
+        annual_income=req.annual_income,
+        dti_ratio=req.dti_ratio,
+        down_payment_pct=req.down_payment_pct,
+        status="pending",
+        applied_at=datetime.utcnow(),
+    )
+    db.add(application)
+    db.commit()
+    db.refresh(application)
+
+    # Build response message
+    msg_parts = [f"Application {customer_id} submitted successfully"]
+    if warnings:
+        msg_parts.append("⚠ " + "; ".join(warnings))
+
+    return LoanApplicationSubmitResponse(
+        id=application.id,
+        customer_id=customer_id,
+        status="pending",
+        product_id=req.product_id,
+        loan_amount=req.loan_amount,
+        message=" | ".join(msg_parts),
+        applied_at=application.applied_at,
+    )

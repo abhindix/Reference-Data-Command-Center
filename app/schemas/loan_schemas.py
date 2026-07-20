@@ -123,3 +123,29 @@ class EligibilityResult(BaseModel):
     product_type: str
     eligible: bool
     reasons: list[str] = []
+
+
+class LoanApplicationSubmitRequest(BaseModel):
+    """Request to submit a new loan application"""
+    customer_name: str
+    email: Optional[str] = None
+    product_id: str
+    loan_amount: float
+    term_months: int
+    credit_score: int
+    annual_income: float
+    dti_ratio: float
+    down_payment_pct: Optional[float] = None
+
+
+class LoanApplicationSubmitResponse(BaseModel):
+    """Response after submitting an application"""
+    id: UUID
+    customer_id: str
+    status: str
+    product_id: str
+    loan_amount: float
+    message: str
+    applied_at: datetime
+
+    model_config = ConfigDict(from_attributes=True)
