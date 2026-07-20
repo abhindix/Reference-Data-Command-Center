@@ -64,6 +64,26 @@ async def list_loan_rates(
     return rates
 
 
+@router.get("/loan-terms", response_model=List[LoanTermResponse])
+async def list_loan_terms(
+    db: Session = Depends(get_db)
+):
+    """Get all available loan terms for all products"""
+    from app.models.loan_models import LoanTerm
+    terms = db.query(LoanTerm).all()
+    return terms
+
+
+@router.get("/loan-fees", response_model=List[LoanFeeResponse])
+async def list_loan_fees(
+    db: Session = Depends(get_db)
+):
+    """Get all typical fees for all loan products"""
+    from app.models.loan_models import LoanFee
+    fees = db.query(LoanFee).all()
+    return fees
+
+
 @router.get("/loan-rates/{product_id}", response_model=LoanRateResponse)
 async def get_loan_rate(
     product_id: str,
