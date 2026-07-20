@@ -1609,6 +1609,155 @@ h1 {
   margin-top: 0.5rem;
 }
 
+/* ── INTEREST RATE HISTORY STYLES ── */
+.rate-history-panel {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.5rem;
+  background: #fff;
+  animation: fade-in 0.3s ease;
+}
+
+.rate-history-panel > .panel-head {
+  margin-bottom: 1.5rem;
+}
+
+.rate-history-panel h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--ink);
+}
+
+.rate-history-panel > p {
+  margin: 1rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.rate-selector {
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem;
+  background: color-mix(in srgb, var(--bg-card) 60%, transparent);
+}
+
+.rate-selector h3 {
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-strong);
+}
+
+.rate-checkboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+}
+
+.rate-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+
+.rate-checkbox:hover {
+  background: color-mix(in srgb, var(--accent) 15%, transparent);
+}
+
+.rate-checkbox input[type='checkbox'] {
+  accent-color: var(--accent-strong);
+  cursor: pointer;
+}
+
+.rate-checkbox span {
+  font-size: 0.95rem;
+}
+
+.rate-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.rate-stat {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: color-mix(in srgb, var(--bg-card) 60%, transparent);
+}
+
+.rate-stat .label {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.rate-stat .current {
+  margin: 0.4rem 0 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.rate-stat .detail {
+  margin: 0.3rem 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.rate-stat .change {
+  margin: 0.4rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.rate-stat .change.up {
+  color: #dc2626;
+}
+
+.rate-stat .change.down {
+  color: #10b981;
+}
+
+.rate-chart {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem;
+  background: color-mix(in srgb, var(--bg-card) 30%, transparent);
+  margin-bottom: 1rem;
+}
+
+.rate-empty {
+  border: 2px dashed var(--line);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.rate-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin: 0;
+  padding: 0.75rem;
+  background: color-mix(in srgb, #fef08a 30%, transparent);
+  border-left: 3px solid #fbbf24;
+  border-radius: 6px;
+}
+
 @media (max-width: 980px) {
   .kpis {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1672,6 +1821,14 @@ h1 {
 
   .admin-detail {
     padding: 1rem;
+  }
+
+  .rate-checkboxes {
+    grid-template-columns: 1fr;
+  }
+
+  .rate-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -1780,5 +1937,21 @@ h1 {
 
   .action-btn {
     width: 100%;
+  }
+
+  .rate-checkboxes {
+    grid-template-columns: 1fr;
+  }
+
+  .rate-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .rate-stat .current {
+    font-size: 1.3rem;
+  }
+
+  .rate-chart {
+    padding: 0.75rem;
   }
 }
