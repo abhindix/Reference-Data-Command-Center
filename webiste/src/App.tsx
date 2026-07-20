@@ -6,6 +6,7 @@ import { ApplicationStats } from './components/ApplicationStats'
 import { ApplicationForm } from './components/ApplicationForm'
 import LoanComparison from './components/LoanComparison'
 import ApplicationTracking from './components/ApplicationTracking'
+import AdminDashboard from './components/AdminDashboard'
 
 type LoanProduct = {
   product_id: string
@@ -94,7 +95,7 @@ function App() {
   const [termFilter, setTermFilter] = useState('all')
   const [maxRatePercent, setMaxRatePercent] = useState('all')
   const [filterDrawerOpen, setFilterDrawerOpen] = useState(false)
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'eligibility' | 'amortization' | 'analytics' | 'compare' | 'tracking' | 'apply'>('dashboard')
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'eligibility' | 'amortization' | 'analytics' | 'compare' | 'tracking' | 'admin' | 'apply'>('dashboard')
 
   const loadDashboard = useCallback(async () => {
     try {
@@ -311,6 +312,7 @@ function App() {
             { key: 'analytics', label: 'Analytics' },
             { key: 'compare', label: 'Compare' },
             { key: 'tracking', label: 'Track' },
+            { key: 'admin', label: 'Admin' },
             { key: 'apply', label: 'Apply Now' },
           ] as const
         ).map((tab) => (
@@ -604,6 +606,9 @@ function App() {
 
       {/* ══ TRACKING TAB ═══════════════════════════════════════════ */}
       {activeTab === 'tracking' && <ApplicationTracking />}
+
+      {/* ══ ADMIN TAB ══════════════════════════════════════════════ */}
+      {activeTab === 'admin' && <AdminDashboard />}
 
       {/* ══ APPLY NOW TAB ═════════════════════════════════════════ */}
       {activeTab === 'apply' && <ApplicationForm />}

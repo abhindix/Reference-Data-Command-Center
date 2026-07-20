@@ -149,3 +149,9 @@ class LoanApplicationSubmitResponse(BaseModel):
     applied_at: datetime
 
     model_config = ConfigDict(from_attributes=True)
+
+
+class ApplicationStatusUpdate(BaseModel):
+    """Request to update application status"""
+    status: str  # 'approved' or 'rejected'
+    notes: Optional[str] = None

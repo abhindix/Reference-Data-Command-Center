@@ -12,6 +12,7 @@ from app.schemas.loan_schemas import (
     EligibilityResult,
     LoanApplicationSubmitRequest,
     LoanApplicationSubmitResponse,
+    ApplicationStatusUpdate,
 )
 
 router = APIRouter()
@@ -182,3 +183,26 @@ async def submit_application(req: LoanApplicationSubmitRequest, db: Session = De
         message=" | ".join(msg_parts),
         applied_at=application.applied_at,
     )
+
+
+@router.patch("/applications/{app_id}/status", response_model=LoanApplicationResponse)
+async def update_application_status(app_id: int, update: ApplicationStatusUpdate, db: Session = Depends(get_db)):
+    """Update the status of a pending application (admin only)"""
+    from app.models.loan_models import LoanApplication
+    from fastapi import HTTPException
+
+    application = db.query(LoanApplication).filter(LoanApplication.id == app_id).first()
+    if not application:
+        raise HTTPException(status_code=404, detail="Application not found")
+
+    # Validate status
+    valid_statuses = ["pending", "approved", "rejected"]
+    if update.status not in valid_statuses:
+        raise HTTPException(status_code=400, detail=f"Invalid status. Must be one of: {', '.join(valid_statuses)}")
+
+    # Update application
+    application.status = update.status
+    db.commit()
+    db.refresh(application)
+
+    return application
