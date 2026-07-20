@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
+import { exportElementToPDF } from '../utils/pdfExport';
 
 interface LoanProduct {
   id: number;
@@ -45,8 +46,7 @@ const LoanComparison: React.FC = () => {
   const [fees, setFees] = useState<LoanFee[]>([]);
   const [selectedIds, setSelectedIds] = useState<number[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
-
+  const [error, setError] = useState('');  const tableRef = React.useRef<HTMLDivElement>(null)
   const API_BASE = import.meta.env.VITE_API_BASE_URL || '/api/v1';
 
   // Fetch all data
@@ -158,7 +158,24 @@ const LoanComparison: React.FC = () => {
 
       {/* Comparison Table */}
       {comparisonData.length > 0 && (
-        <div className="comp-table-wrapper">
+        <>
+          <div className="comp-export-btn-wrapper">
+            <button
+              type="button"
+              className="export-btn"
+              onClick={() => {
+                if (tableRef.current) {
+                  exportElementToPDF(tableRef.current, {
+                    filename: `loan-comparison-${new Date().toISOString().slice(0, 10)}.pdf`,
+                    title: 'Loan Product Comparison',
+                  });
+                }
+              }}
+            >
+              📥 Export Comparison as PDF
+            </button>
+          </div>
+          <div className="comp-table-wrapper" ref={tableRef}>
           <table className="comp-table">
             <thead>
               <tr>
@@ -274,6 +291,7 @@ const LoanComparison: React.FC = () => {
             </tbody>
           </table>
         </div>
+        </>
       )}
 
       {selectedIds.length === 0 && (

@@ -137,6 +137,31 @@ h1 {
   cursor: default;
 }
 
+.export-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1.2rem;
+  background: var(--accent);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.18s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.export-btn:hover {
+  filter: brightness(1.15);
+  transform: translateY(-1px);
+}
+
+.export-btn:active {
+  transform: translateY(0);
+  filter: brightness(1.08);
+}
+
 .filter-toggle {
   display: none;
 }
@@ -940,6 +965,12 @@ h1 {
   border-radius: 12px;
   padding: 1rem;
   background: color-mix(in srgb, var(--bg-card) 60%, transparent);
+}
+
+.comp-export-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
 }
 
 .comp-selector h3 {

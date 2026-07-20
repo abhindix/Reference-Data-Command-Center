@@ -9,6 +9,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts'
+import { exportAmortizationPDF } from '../utils/pdfExport'
 
 type Props = {
   defaultRate?: number
@@ -73,8 +74,18 @@ export function AmortizationChart({ defaultRate = 0.065, defaultTerm = 360 }: Pr
   return (
     <section className="panel amort-panel">
       <div className="panel-head">
-        <h2>Amortization Calculator</h2>
-        <p>Principal vs. interest breakdown year-by-year</p>
+        <div>
+          <h2>Amortization Calculator</h2>
+          <p>Principal vs. interest breakdown year-by-year</p>
+        </div>
+        <button
+          type="button"
+          className="export-btn"
+          onClick={() => exportAmortizationPDF(schedule, principal, annualRate * 100, termMonths, monthly)}
+          title="Download amortization schedule as PDF"
+        >
+          📥 Export PDF
+        </button>
       </div>
 
       <div className="amort-controls">

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { exportApplicationPDF } from '../utils/pdfExport'
 
 const API_BASE = import.meta.env.VITE_API_BASE_URL ?? '/api/v1'
 
@@ -241,6 +242,22 @@ export function ApplicationForm() {
             <p style={{ fontSize: '0.8rem', color: '#999', marginTop: '0.3rem' }}>
               Applied: {new Date(response.applied_at).toLocaleString()}
             </p>
+            <button
+              type="button"
+              className="export-btn"
+              onClick={() =>
+                exportApplicationPDF({
+                  customer_id: response.customer_id,
+                  status: response.status,
+                  product: response.product_id,
+                  loan_amount: response.loan_amount,
+                  applied_at: response.applied_at,
+                })
+              }
+              style={{ marginTop: '0.75rem' }}
+            >
+              📥 Export as PDF
+            </button>
           </div>
         )}
       </form>
